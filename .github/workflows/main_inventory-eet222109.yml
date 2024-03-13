@@ -64,4 +64,4 @@ jobs:
         with:
           app-name: 'inventory-eet222109'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_32D44969AE244ADFA7347B3B116A90D3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_17CA2CBFD53F47FE9D54A87DB911B30C }}
