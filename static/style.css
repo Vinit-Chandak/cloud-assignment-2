@@ -1,0 +1,68 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+}
+
+.container { 
+    max-width: 800px; 
+    margin: 0 auto;  /* Centers the container */
+}
+
+h1 { 
+    text-align: center; 
+    margin-bottom: 20px; 
+}
+
+/* Form Styles */
+.container form label { 
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.container form input[type="text"], 
+.container form input[type="number"] {
+    width: 100%; 
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd; 
+    box-sizing: border-box; 
+}
+
+/* Table Styles */
+table { 
+    border-collapse: collapse; 
+    width: 100%; 
+    margin-top: 20px; 
+}
+
+th, td { 
+    border: 1px solid #ddd; 
+    padding: 10px; 
+    text-align: left; 
+}
+
+th { 
+    background-color: #f0f0f0; 
+}
+
+/* Button Styles */
+.btn { 
+    margin-bottom: 15px; 
+}
+
+/* Alert Styles */
+.alert { 
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border-radius: 5px; 
+}
+
+.alert-success { 
+    background-color: #dff0d8; 
+    color: #3c763d; 
+}
+
+.alert-danger { 
+    background-color: #f2dede; 
+    color: #a94442; 
+}
